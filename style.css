@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    color: #000000;
+    position: fixed;
+    padding: 1rem 0;
+    width: 100%;
+    top: 0;
+}
+
+header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   }
+   
+   nav ul li {
+    margin-left: 1rem;
+   }
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#intro {
+    background: #04449c;
+    text-emphasis-color: white;
+}
+
+.corclick:hover {
+    color:#04449c ;
+  }
+
+
+#games {
+    background: #ffffff;
+    text-align: center;
+}
+
+#games .game {
+    margin-bottom: 1.5rem;
+    
+    
+}
+
+#games .game img {
+    max-width: 20%;
+    height: auto;
+}
+
+#contact {
+    background: #962c2c;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #04449c; 
+}
+
+footer {
+    background: #04449c;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+ 
+
